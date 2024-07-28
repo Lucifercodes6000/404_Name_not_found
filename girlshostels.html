@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Hostel Facilities</title>
+    <link rel="stylesheet" href="girlshostels.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Girls Hostel Facilities</h1>
+        
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Hostel Types</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>There are a total of 8 women's hostels in VIT (air-conditioned and non-air-conditioned). The G and H block is an apartment-style hostel where each wing has its own separate washroom. The G and H blocks have non-apartment style rooms as well.The blocks allotted to freshers change periodically.The C D E F blcoks are normal type rooms and have bunk beds with non attached washrooms.
+                    A nd b Blocks are non air-conditioned.
+                </p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Laundry</div>
+            <div class="facility-content">
+                <p>Laundry facility is available on  each block on the ground first and second floors 
+                    each floor of each block is assigned to a particular floor laundry .You need to give your laundry over there only .You can submit 25 clothes without bedsheet or 10 clothes and 1 bedsheet at a time.
+                    Also you have been provided 44 washes free included in  your hostel fees.
+                </p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Sports Facility</div>
+            <div class="facility-content">
+           <P> Each block has a numerous sport facility avaialble .For each sport you have tor egister on vtop and pay the fees and then you shaall be allowed to use the facilities .Moreover free badminton courts are vaialble in F ,C and B blocks.
+            There are timings for the sports facilities which are 6-9 am and 3-8 pm daily .
+                </p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Other Facilities</div>
+            <div class="facility-content">
+           <P> Other facilities include shops cafes and medical health centre nearby.
+            Supermarket Shops are located near F block , G Block and D block.
+            Health center is availble near f block and is open 24/7 and is free of charge for consutations.
+            Cafes include: 1.FLORA CAFE :Located close to F block serves a variety of food and drinks . 
+            2. Auntys Kitchen: Again giving a very homely touch to food,it provides a variety of food ranging from north indian to south indian to chinese to drinks.
+                </p>
+            </div>
+        </div>
+
+        <a href="hostelmainpage.html" class="back-link">Back to Hostel Selection</a>
+    </div>
+
+    <script>
+        function toggleFacility(header) {
+            var content = header.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

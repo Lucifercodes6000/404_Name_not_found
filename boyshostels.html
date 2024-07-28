@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boys Hostel Facilities</title>
+    <link rel="stylesheet" href="boyshostel.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Boys Hostel Facilities</h1>
+        
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Hostel Types</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>There are a total of 20 men's hostels in VIT (air-conditioned and non-air-conditioned). The R block is an apartment-style hostel where each wing has its own separate washroom. The S and T blocks are deluxe blocks, while the Q block is semi-deluxe and also serves as the freshers' block. The blocks allotted to freshers change periodically, with the exception of Q block. Freshers are mostly allotted P and E blocks (non-air-conditioned), while K and L blocks have bunker beds and M and N blocks have wooden 3-bedded and 2-bedded rooms.</p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Laundry</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>
+
+The laundry service provided in the men's hostel is facilitated through a mobile application called "Chota Dhobi." This app is accessible on both Android and iOS platforms. Initially, each hosteller is entitled to 44 complimentary laundry services, and the count is maintained within the app. For residents residing in Blocks K and E, the primary laundry facility is conveniently located near Enzo. Residents in Blocks L, M, Q, and R have the advantage of having their own dedicated laundry facilities within their respective hostels. It is important to note that while any laundry bag can be utilized, it is not mandatory to purchase a laundry bag specifically from Chota Dhobi. Additionally, there is a paid laundry service available beside the hostel office, and a tailor is available behind Enzo in the indoor sports complex.
+                </p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Sports Facility</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>Sports include gyms,swimming badminton,all of which can be registered on vtop and used further.
+                    All fees paid remain valid for a semester ! Also the facility availble are dispersed across various hostels to allow esy access to all.
+                </p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Other Facilities</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>Other facilities include a medical shop along with a one food world and enzo present alll near g block </p>
+            </div>
+        </div>
+
+        <a href="hostelmainpage.html" class="back-link">Back to Hostel Selection</a>
+    </div>
+
+    <script>
+        function toggleFacility(header) {
+            var content = header.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

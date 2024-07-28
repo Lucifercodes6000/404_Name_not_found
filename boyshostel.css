@@ -1,0 +1,41 @@
+
+.facility {
+    background-color: rgba(155, 158, 206, 0.1);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.facility-header {
+    display:flex;
+    justify-content:center;
+    background-color: #473BF0; /* Changed color for girls hostel */
+    color: #000500;
+    padding: 10px;
+    cursor: pointer;
+}
+.facility-content {
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: #ACADBC;
+    text-wrap:pretty;
+    padding: 15px;
+    display: none;
+}
+.facility-header:hover {
+    background-color: #9B9ECE;
+}
+.facility-content {
+    background-color: rgba(155, 158, 206, 0.05);
+    color: #ACADBC;
+}
+body{
+    background-color: #000500;
+}
+.back{
+    background-color:#00ff00;
+    margin:20px;
+    width:100px;
+    height:10px;
+    display:flex;
+    justify-content:center;
+}
