@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000500;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #ACADBC;
+}
+
+.container {
+    background-color: rgba(155, 158, 206, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(155, 158, 206, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #9B9ECE;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.hostel-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    font-size: 5em;
+    margin-bottom: 20px;
+    background-color: rgba(155, 158, 206, 0.2);
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.hostel-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    color: #000500;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.boys-hostel {
+    background-color: #6665DD;
+}
+
+.girls-hostel {
+    background-color: #9992f8;
+}
+
+.hostel-option:hover .icon {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(155, 158, 206, 0.4);
+}
+
+.hostel-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(155, 158, 206, 0.3);
+    background-color: #ACADBC;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    color: #9B9ECE;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+
+.back-link:hover {
+    color: #ACADBC;
+    transform: scale(1.05);
+}
+
+.facility-header:hover {
+    background-color: #9B9ECE;
+}
+
+.facility-content {
+    background-color: rgba(155, 158, 206, 0.05);
+    color: #ACADBC;
+}

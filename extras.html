@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics Page</title>
+    <style>
+        h1{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            color:#ffffff;
+        }
+        body{
+            background-color:#000500;
+            text-align: center;
+        }
+        .facility {
+            background-color: rgba(155, 158, 206, 0.1);
+            margin-bottom: 10px;
+            margin-inline: 80px;
+            margin-right: 100px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            width:1000px;
+            overflow: hidden;
+        }
+        .facility-header {
+            background-color: #473BF0; /* Changed color for girls hostel */
+            color: #000500;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 10px;
+            display:flex;
+            justify-content: center; 
+            cursor: pointer;
+        }
+        .facility-content {
+            padding: 15px;
+            display: none;
+        }
+        .facility-header:hover {
+            background-color: #9B9ECE;
+        }
+        .facility-content {
+            background-color: rgba(155, 158, 206, 0.05);
+            color: #ACADBC;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 color>Academics</h1>
+        
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">VTOP</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>Information about different VTOP goes here.</p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">EPT</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>Information about EPT goes here.</p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">FFCS</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>Information about FFCS goes here.</p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Library</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>Information about library goes here.</p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Classes</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>Information about Classes and school goes here.</p>
+            </div>
+        </div>
+
+        <div class="facility">
+            <div class="facility-header" onclick="toggleFacility(this)">Exams</div>
+            <div class="facility-content">
+                <!-- Add your content here -->
+                <p>Information about exam process goes here.</p>
+            </div>
+        </div>
+
+        <a href="main.html" class="back-link">Back to Homepage</a>
+    </div>
+
+    <script>
+        function toggleFacility(header) {
+            var content = header.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
